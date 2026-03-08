@@ -1,0 +1,19 @@
+{
+  "name": "task-6",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "tsx --watch ./src/index.ts",
+    "start": "node ./dist/index.js",
+    "build": "npx tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^25.3.5",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
